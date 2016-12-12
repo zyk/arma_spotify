@@ -93,7 +93,7 @@ namespace ARMASpotify
 		// does not work.... yet.
 		private static void playSpotify(string song)
 		{
-			System.Diagnostics.Process.Start(song);
+			//System.Diagnostics.Process.Start(song); // dangerous..
 		}
 
 		private static int sendSpotifyCommand(int type)
